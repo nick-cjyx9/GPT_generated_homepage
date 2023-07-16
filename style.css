@@ -18,7 +18,7 @@ html, body {
 
 /* 设置背景图像 */
 .app-holder {
-  background-image: url('/static/banner.png');
+  background-image: url('static/banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
