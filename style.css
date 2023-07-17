@@ -3,19 +3,15 @@
   margin:0;
   padding:0;
 }
-
-
 img {
   vertical-align:top;
   border:none;
 }
-
 /* 设置全屏大小，不可滚动 */
 html, body {
   height: 100%;
   overflow: hidden;
 }
-
 /* 设置背景图像 */
 .app-holder {
   background-image: url('static/banner.png');
@@ -48,7 +44,6 @@ html, body {
   height: 100%;
   border-radius: 5px;
 }
-
 /* 左侧和右侧内部元素的样式 */
 .left {
   text-align: center;
@@ -64,12 +59,9 @@ html, body {
   font-size: 18px;
   overflow-y:auto;
 }
-
 .right > li {
   padding-top: 4px;
-  
 }
-
 /* 移动设备的响应式布局 */
 @media screen and (max-width: 600px) {
   .card {
@@ -79,7 +71,6 @@ html, body {
     margin: 0;
     border-radius: 0;
   }
-
   .left,
   .right {
     width: 100%;
@@ -90,9 +81,12 @@ html, body {
     display: none;
   }
   button {
-    display:  none;
+    display: none;
   }
 }
+
+/* LEFT */
+
 .avatar {
   display: flex;
   justify-content: center;
